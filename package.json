@@ -1,0 +1,15 @@
+{
+  "name": "esbuild-require-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "esbuild ./index.js --bundle --outfile=out/index.js --platform=node --external:node:path && node out/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "0.12.15"
+  }
+}
